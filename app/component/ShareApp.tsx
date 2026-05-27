@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Share2, X, Copy, Facebook, Mail } from "lucide-react";
+import { Share2, X, Copy, Mail } from "lucide-react";
 import Image from "next/image";
 
 export default function ShareApp() {
@@ -69,7 +69,7 @@ export default function ShareApp() {
                 className="text-center"
               >
                 <div className="w-16 h-16 rounded-full bg-blue-700 text-white flex items-center justify-center">
-                  <Facebook />
+                  F
                 </div>
 
                 <p className="mt-2">Facebook</p>

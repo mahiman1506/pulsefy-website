@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Github, Mail, ShieldCheck, Heart } from "lucide-react";
+import { Mail, ShieldCheck, Heart } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -94,7 +94,6 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-[#5f6368] hover:text-[#01875f] transition"
               >
-                <Github size={18} />
                 GitHub
               </a>
             </div>
