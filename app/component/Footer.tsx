@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="flex items-center gap-4">
               <div className="h-14 w-14 overflow-hidden rounded-2xl shadow-sm sm:h-16 sm:w-16">
                 <Image
-                  src="/images/pulsefy_logo.png"
+                  src="/images/Pulsefy_logo.png"
                   width={64}
                   height={64}
                   alt="Pulsefy"
