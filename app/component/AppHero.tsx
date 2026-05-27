@@ -86,10 +86,10 @@ export default function AppDetails() {
         {/* Right App Icon */}
         <div className="shrink-0">
           <Image
-            src="/images/pulsefy_logo.png"
+            src="/images/Pulsefy_logo.png"
             width={220}
             height={220}
-            alt="Highway Racer"
+            alt="Pulsefy"
             className="h-auto w-36 rounded-[28px] shadow-lg sm:w-48 sm:rounded-[34px] lg:w-55 lg:rounded-[40px]"
           />
         </div>
