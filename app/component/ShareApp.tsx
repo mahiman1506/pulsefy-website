@@ -88,6 +88,7 @@ export default function ShareApp() {
                     height={34}
                     alt="WhatsApp"
                     className="object-contain"
+                    priority
                   />
                 </div>
 

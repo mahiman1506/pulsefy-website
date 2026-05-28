@@ -24,6 +24,7 @@ export default function Header() {
               width={40}
               height={40}
               alt="Playstore"
+              priority
             />
 
             <h1 className="text-[#5f6368] text-lg font-medium sm:text-[20px]">
@@ -39,9 +40,22 @@ export default function Header() {
               height={25}
               alt="Search"
               className="cursor-pointer brightness-0 opacity-60"
+              priority
             />
-            <Image src="/images/help.png" width={30} height={30} alt="help" />
-            <Image src="/images/user.png" width={32} height={32} alt="user" />
+            <Image
+              src="/images/help.png"
+              width={30}
+              height={30}
+              alt="help"
+              priority
+            />
+            <Image
+              src="/images/user.png"
+              width={32}
+              height={32}
+              alt="user"
+              priority
+            />
           </div>
         </div>
 

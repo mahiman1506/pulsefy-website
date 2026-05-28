@@ -17,6 +17,7 @@ export default function Footer() {
                   height={64}
                   alt="Pulsefy"
                   className="w-full h-full object-cover"
+                  priority
                 />
               </div>
 

@@ -63,6 +63,7 @@ export default function AppDetails() {
                   width={160}
                   height={48}
                   className="h-auto w-40 object-contain"
+                  priority
                 />
               </a>
             </button>
@@ -91,6 +92,7 @@ export default function AppDetails() {
             height={220}
             alt="Pulsefy"
             className="h-auto w-36 rounded-[28px] shadow-lg sm:w-48 sm:rounded-[34px] lg:w-55 lg:rounded-[40px]"
+            priority
           />
         </div>
       </div>

@@ -18,6 +18,7 @@ export default function AboutDeveloper() {
                 height={80}
                 alt="Mahiman Labs"
                 className="w-full h-full object-cover"
+                priority
               />
             </div>
 

@@ -48,7 +48,8 @@ export default function ScreenshotCarousel() {
               width={166}
               height={296}
               alt={`Screenshot ${index + 1}`}
-              className="h-auto w-36 rounded-2xl border border-gray-200 shadow-sm sm:w-[166px]"
+              className="h-auto w-36 rounded-2xl border border-gray-200 shadow-sm sm:w-41.5"
+              priority
             />
           </div>
         ))}
@@ -66,7 +67,10 @@ export default function ScreenshotCarousel() {
           </button>
 
           {/* Left Arrow */}
-          <button onClick={prevImage} className="absolute left-2 text-white sm:left-6">
+          <button
+            onClick={prevImage}
+            className="absolute left-2 text-white sm:left-6"
+          >
             <ChevronLeft size={42} />
           </button>
 
@@ -77,10 +81,14 @@ export default function ScreenshotCarousel() {
             height={800}
             alt="Fullscreen Screenshot"
             className="h-auto max-h-[90vh] max-w-[78vw] rounded-3xl object-contain"
+            priority
           />
 
           {/* Right Arrow */}
-          <button onClick={nextImage} className="absolute right-2 text-white sm:right-6">
+          <button
+            onClick={nextImage}
+            className="absolute right-2 text-white sm:right-6"
+          >
             <ChevronRight size={42} />
           </button>
         </div>
